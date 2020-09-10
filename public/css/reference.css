@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "Segoe UI";
+    src: url("../font/segoeui.ttf") format("woff2"),
+        url("../font/segoeuib.ttf") format("woff2"),
+        url("../font/segoeuii.ttf") format("woff2"),
+        url("../font/segoeuil.ttf") format("woff2"),
+        url("../font/segoeuisl.ttf") format("woff2"),
+        url("../font/segoeuiz.ttf") format("woff2"),
+        url("../font/seguibl.ttf") format("woff2"),
+        url("../font/seguibli.ttf") format("woff2"),
+        url("../font/seguili.ttf") format("woff2"),
+        url("../font/seguisb.ttf") format("woff2"),
+        url("../font/seguisbi.ttf") format("woff2"),
+        url("../font/seguisli.ttf") format("woff2")
+}
+
+.line{
+    border: 1px solid #BCB7B7;
+    opacity: 1;
+    width: 10px;
+    height: 0px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: -5px;
+    margin-bottom: 3px;
+}
+
+.second_data{
+    margin-left: 15px;
+}
+
+.interval-text{
+    text-align: left;
+    font: Regular 16px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #BCB7B7;
+    opacity: 1;
+    display: inline-block;
+    width: 83%;
+    margin: 21px 0 12px 52px;
+}
+
+.reference-admin{
+    padding: 0;
+}
+
+#example8 > div > input{
+    background-image: none;
+    background: none;
+}
+#example7 > div > input{
+    background-image: none;
+    background: none;
+}
+
+
+
+#example7 > div > input,#example8 > div > input{
+    background-image: url("../images/down.svg");
+    background-repeat: no-repeat; 
+    background-position: 155px 14px;
+}
+
+
+.red{
+    background: transparent linear-gradient(90deg, #EBBFA3 0%, #F57F7F 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+}
+.orange{
+    background: transparent linear-gradient(90deg, #E3EAA2 0%, #F5CA7F 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+}
+.green{
+    background: transparent linear-gradient(90deg, #A2EBBA 0%, #82D09C 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.default{
+background: transparent linear-gradient(91deg, #E9E9E9 0%, #D2CDCD 100%) 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+}
+
+
+.reference-div{
+    width: 68%;
+    display: inline-block;
+}
+
+.select-for-reference{
+    width:17%;
+    display: inline-block;
+    margin-left: 51px;
+    margin-top: 41px;
+}
+
+#sel1,#sel11,#sel12{
+background-position: calc(100% - 11px) calc(1em + 0px),
+        calc(100% - 15px) calc(1em + 2px),
+        100% 0
+}
+
+.reference_admin{
+    padding-bottom: 100px;
+}
+
+body > div.container_div > div.table-div.table-div-doctor.reference_doctor > table.table.table-value.table1.reference_doctor > tbody > tr> td > input{
+    text-align: center;
+    width: 94px;
+    margin-left: 40px;
+    margin-top: 2px;
+}
+
+body > div.container_div > div.table-div.table-div-doctor.reference_admin > table.table.table-value.table1.reference_admin > tbody > tr > td > input{
+        text-align: center;
+    width: 94px;
+    margin-left: 40px;
+    margin-top: 2px;
+}
+
+body > div.container_div > div.table-div.table-div-doctor.reference_admin > table.table.table-value.table1.reference_admin > tbody > tr > td{
+    max-width: 191px!important;
+}
+
+body > div.container_div > div.table-div.table-div-doctor.reference_admin > table.table.table-value.table1.reference_admin > tbody > tr > td > input{
+    text-align: center;
+    width: 94px;
+    margin-left: 135px;
+    margin-top: 2px;
+}
+
+.monthly_stat{
+    margin-top: 50px;
+}
+
+.monthly_stat > thead > tr > th{
+     width: unset!important;
+}
+
+.admin_indicator_monthly .value {
+     max-width: 100px;
+}
+

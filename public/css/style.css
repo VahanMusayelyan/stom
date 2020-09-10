@@ -1,0 +1,393 @@
+body{
+    max-width:1965px!important;
+    margin: 0 auto!important;
+    background-color: #F9F9F9;
+}
+.org,.employee{
+    width: 421px;
+    height: 38px;
+    border: 0.5px solid #2384E5!important;
+    border-radius: 4px;
+    opacity: 1;
+    display:inline-block;
+}
+
+select.org{
+    width: 421px;
+    height: 38px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+
+
+
+
+#myform4 > form > div > div > span > span.selection > span{
+    padding: 5px;
+}
+
+#myform4 > form > div:nth-child(4) > div > span > span.selection > span{
+    padding: 0;
+}
+#myform6 > form > div > div > span > span.selection > span,
+#myform4 > form > div:nth-child(4) > div > span > span.selection > span,
+#myform4 > form > div.form-group > div > span > span.selection > span
+{
+    height: 38px;
+}
+
+.organization-div{
+    display: inline-block;
+}
+
+organization-div label{
+    max-width:0!important;
+    width:100%!important;
+}
+
+.form-div-add{
+    float: right;
+    margin: 53px;
+    width: 81%;
+    padding: 50px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 6px #00000029;
+opacity: 1;
+}
+
+.textarea-organization{
+    width: 678px;
+    height: 114px;
+    border: 0.5px solid #2384E5;
+    border-radius: 4px;
+    opacity: 1;
+    margin-bottom: 31px;
+    margin-top: 10px;
+}
+
+#text1,#text3,#text5,#text7,#text9{
+    margin-right: 80px;
+}
+
+@media (min-width: 576px){
+  .col-sm-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: unset;
+}  
+}
+
+.organization-div .col-sm-10{
+    padding: 0;
+    margin-top: 10px;
+}
+
+.city_name,.region_name,.type_organiz,.name_organiz{
+    margin-right: 85px;
+}
+.city_name,.region_name,.class_name{
+    margin-bottom: 62px;
+}
+
+.textarea-organization:focus{
+    border: 0.5px solid #2384E5!important;
+    border-radius: 4px;
+    opacity: 1; 
+}
+
+.add-organization-info,.add-employee-info{
+width: 373px;
+height: 37px;
+background: #2384E5 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 6px #00000029;
+border-radius: 4px;
+opacity: 1;
+}
+
+.butbut{
+    width: 420px;
+    height: 37px;
+    margin: 25px auto auto auto;;
+    display: block;
+}
+
+#myform4 > form > div.form-group.organization-div > label,#myform4 > form > div > label{
+    padding: 0;
+    display: contents;
+
+}
+
+#myform4 > form > div > div > span{
+    width: 421px!important;
+}
+
+#myform4 > form > div > div{
+    padding: 0;
+}
+
+.employee-div{
+    width:30%;
+    display: inline-block;
+}
+
+.fisrt-div,.second-div{
+   margin-right: 67px; 
+}
+
+
+
+#myform4 > form > div.form-group.employee-div > div{
+    margin-top: 10px;
+}
+
+.div_value_admin{
+width: 160px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.div_value_doctor{
+height: auto;
+    width: 93px;
+    margin: 0 auto;
+        padding: 2px 1px 1px 1px;
+}
+
+
+.div_value_doctor input,.div_value_doctor input{
+    text-align: center;
+}
+
+.div_value_doctor input{
+    width: 93px;
+}
+
+body > div.container_div > div.table-div.table-div-admin > table.table.table-value.table1.admin_stat > tbody > tr > td.statistic > div > input{
+    text-align: center;
+}
+
+.link_a {
+    width: 350px;
+    display: inline-block;
+    margin: 22px 22px 22px 35px;;
+    text-align: center;
+}
+
+.link_a a{
+    font: Bold 17px/16px Segoe UI;
+    letter-spacing: 0px;
+    color: #509DEA;
+    opacity: 1;
+}
+
+
+
+#myform6 > div > table.table.table-value.table1.user > tbody > tr > td{
+     text-align: center;
+}
+
+#myform6 > div > nav{
+    margin: 41px;
+}
+
+#myform6 > div > table.table.table-value.table1.user > tbody > tr > td:nth-child(9) > div > div{
+    margin: 0 auto;
+}
+
+body > div.container_div > div.table-div.table-div-admin > table.table.table-value.table1 > tbody > tr > td.color_th:nth-child(1){
+        padding-top: 15px!important;
+    padding-left: 15px;
+    text-align: left;
+}
+
+#myform6 > div > table.table.table-value.table1.user > tbody > tr > td > form{
+	display:inline-block;
+}
+
+#details > table > tbody > tr > td:nth-child(1){
+	font-weight:600;
+}
+
+#details > table > thead > tr > th{
+	font-size:18px;
+padding: 20px 10px;
+}
+
+table.table.table-value.table1 > tbody > tr > td > form > button{
+     background-color: transparent;
+    border: none;
+    margin-left: 7px;
+}
+
+#myform6 > div > table > tbody > tr > td> form > button{
+        background-color: transparent;
+    border: none;
+    margin-left: 7px; 
+}
+#myform6 > div > table > tbody > tr > td> form > button:focus,
+#myform6 > div > table > tbody > tr > td> form > button:focus{
+outline: none
+}
+
+#myform6 > div > table.table.table-value.table1.user > tbody > tr > td > a {
+
+    margin-right: 8px;
+}
+
+.alert{
+    text-align: center;
+	    width: 25%;
+    float: right;
+    margin: 0;
+}
+
+.settings{
+	cursor:auto;
+}
+
+
+.no-preview{
+    background-color: #b9e6b98c!important;
+}
+
+.preview_user{
+    cursor: pointer;
+}
+
+.spec_add{
+    margin-left: 41px;
+    margin-top: 25px;
+}
+
+.speiializ_edit,.speiializ_add{
+    width: 33%;
+  
+}
+
+.specialization{
+    margin-left: 41px;
+}
+.update_spec,.add_specialization{
+    margin-left: 0;
+}
+
+
+.btn_menu{
+        font-weight: 600;
+        margin-left: 50px;
+}
+
+.edit_organization{
+    float: right;
+    margin-bottom: 15px;
+}
+
+#details > table > tbody > tr > td:nth-child(1){
+    width: 30%;
+}
+
+.result_search{
+    width: 100%;
+    margin: 0 auto;
+    color: red;
+    float: right;
+}
+
+.add_admin_stat{
+width: 183px;
+height: 38px;
+background: #2384E5 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 6px #00000029;
+border-radius: 4px;
+opacity: 1;
+color: #fff;
+    border:none;
+    outline: none;
+}
+
+.add_admin_stat:focus,.add_admin_stat:active{
+    border:none;
+    outline: none;
+}
+
+.cancel_admin_stat{
+width: 183px;
+height: 38px;
+background: #D54035 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 6px #00000029;
+border-radius: 4px;
+opacity: 1;
+color: #fff;
+    border:none;
+    outline: none;
+        margin-left: 27px;
+}
+
+.cancel_admin_stat:focus,.cancel_admin_stat:active{
+    border:none;
+    outline: none;
+}
+
+.add_cancel_buttons{
+    width: 27.4%;
+    float: right;
+    margin-top: 42px;
+
+}
+
+.change_value {
+    text-align: center;
+}
+
+.formule_div{
+    position: relative;
+}
+
+.formule{
+ position: absolute;
+width: 185px;
+height: 103px;
+background: #F1F1F1 0% 0% no-repeat padding-box;
+box-shadow: 3px 15px 15px #00000029;
+opacity: 1;
+border-radius: 8px;
+padding: 15px 5px 5px 5px;
+left: 93px;
+top:24px;
+display: none;
+z-index: 10;
+}
+
+.drop_down_icon{
+    transform: rotate(45deg);
+    background-color: #f1f1f1;
+    position: absolute;
+    padding: 6px;
+    left: 120px;
+    top: 19px;
+    display: none;
+    z-index: 10;
+}
+
+.admin_indicator td .value, .doctor_indicator td .value,.spec_indicator .value{
+    cursor: pointer;
+}
+
+.doctor_formule{
+  left: -6px;  
+}
+
+.doctor_droptown_formule{
+    left: 26px;
+}
+
+.spec_indicator td doctor_droptown_formule{
+   left: 38px;  
+}
+
+.spec_indicator td .doctor_formule{
+  left: 8px;  
+}

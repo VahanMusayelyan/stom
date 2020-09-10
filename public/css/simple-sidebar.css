@@ -1,0 +1,649 @@
+@font-face {
+    font-family: "Segoe UI";
+    src: url("../font/segoeui.ttf") format("woff2"),
+        url("../font/segoeuib.ttf") format("woff2"),
+        url("../font/segoeuii.ttf") format("woff2"),
+        url("../font/segoeuil.ttf") format("woff2"),
+        url("../font/segoeuisl.ttf") format("woff2"),
+        url("../font/segoeuiz.ttf") format("woff2"),
+        url("../font/seguibl.ttf") format("woff2"),
+        url("../font/seguibli.ttf") format("woff2"),
+        url("../font/seguili.ttf") format("woff2"),
+        url("../font/seguisb.ttf") format("woff2"),
+        url("../font/seguisbi.ttf") format("woff2"),
+        url("../font/seguisli.ttf") format("woff2")
+}
+
+body{
+    background-color: #F9F9F9!important;
+}
+
+#wrapper {
+    overflow-x: hidden;
+}
+
+
+
+#sidebar-wrapper{
+    height: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box!important;
+    box-shadow: -1.5px 0px 6px #00000029;
+    opacity: 1;
+    top: 0;
+    position: absolute;
+}
+
+.bg-light {
+    background: #FFFFFF 0% 0% no-repeat padding-box!important;
+    box-shadow: -1.5px 0px 6px #00000029;
+    opacity: 1; 
+}
+
+.doctor,.admin{
+    border: none;
+    outline: none;
+}
+.doctor{
+    margin-top: 25px;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    text-align: left;
+    font: Bold 17px/16px Segoe UI;
+    letter-spacing: 0px;
+    color: #509DEA;
+    opacity: 1;
+    margin-top: 41px;
+    margin-left: 44px;
+    width: 175px;
+    height: 20px;
+}
+#sidebar-wrapper .sidebar-heading a{
+    font: Bold 17px/16px Segoe UI;
+    letter-spacing: 0px;
+    color: #509DEA;
+    opacity: 1;
+}
+
+#sidebar-wrapper .list-group {
+    width: 100%;
+    margin-top: 100px;
+}
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+
+.catalog{
+    margin-top: 77px;
+    margin-left: 44px;
+    height: 24px;
+    text-align: left;
+    font: Semibold 18px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #2384E5;
+    opacity: 1;
+    cursor: context-menu;
+}
+
+
+.feather-edit,.feather-statistic,.feather-settings,.feather-logout{
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-right: 12px;
+}
+
+.doctor,.admin,.spec{
+    margin-left: 26px;
+    text-align: left;
+    font: Regular 16px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+
+}
+
+.doctor:hover,.admin:hover,.spec:hover,.settings:hover,.logout:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+.catalog-hr{
+    margin-top: 66px;
+    width: 186px;
+    border: 1px solid #707070;
+    opacity: 0.3;
+
+}
+
+.statistic{
+    margin-top: 60px;
+    margin-left: 44px;
+    height: 24px;
+    text-align: left;
+    font: Semibold 18px/24px Segoe UI;
+    letter-spacing: 0px;
+    opacity: 1;
+    cursor: context-menu;
+}
+
+
+.settings,.logout{
+    margin-left: 26px;
+    text-align: left;
+    font: Semibold 16px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #111111;
+    opacity: 1;
+}
+
+.feather-settings,.feather-logout{
+    margin-right: 12px;  
+}
+
+.settings,.logout{
+    text-align: left;
+    font: Semibold 16px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #111111;
+    opacity: 1;
+}
+.settings{
+    margin-top:154px;
+}
+
+.logout{
+    margin-top:13px;  
+}
+
+.list-group a{
+    padding:10px 0 10px 18px!important;
+
+}
+
+.header-div{
+    padding-bottom: 13px;
+}
+
+.active{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background: #efefef 0% 0% no-repeat padding-box; /* #F9F9F9*/
+     
+
+}
+
+.border-active-bottom{
+    border-bottom-right-radius: 25px; 
+    z-index: 1;
+    background-color: #fff;
+}
+.border-active-top{
+    border-top-right-radius: 25px;
+    z-index: 1;
+    background-color:#fff;
+}
+
+.absolute{
+    position: absolute;
+    left: 184px;
+    background-color: #F9F9F9;
+    width: 50px;
+    height: 100px;
+    top: 161px;
+}
+
+.navbar{
+    width: 88%;
+    height: 102px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    float:right;
+}
+
+.border-right{
+    width: 235px;
+    display: inline-block;
+    height: 100vh;
+}
+
+.admins_link button,.doctors_link button,.clinics_link button{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.admins_link ,.doctors_link ,.clinics_link{
+    width: 303px;
+    padding: 9px 0 5px 53px;
+    float: left;
+    margin-right: 122px;
+}
+
+.admins_link{
+    padding-left: 23px;
+}
+
+.dropdown{
+    margin-left: 50px;
+    font-weight: 600;
+    margin-bottom: 10px
+}
+
+.dropdown > img{
+    margin-left: 8px;
+    padding-bottom: 10px;
+    margin-bottom: -8px;
+}
+
+.add{
+    text-align: left;
+    font: Semibold 16px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #2384E5;
+    opacity: 1;
+    margin-bottom: 10px;
+}
+
+.add > img{
+    margin-right: 14px;
+    margin-top: -2px;
+}
+
+body > div.navbar > div > button.add > a > img{
+    margin-right: 14px;
+}
+
+.navbar{
+    padding-left:0;
+    display: block;
+}
+
+.container_div{
+    width:88%;
+
+    float: right;
+    background-color: #F9F9F9;
+}
+
+.header{
+    margin-left: 53px;
+    margin-top: 50px;
+    text-align: left;
+    font: normal 22px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #111111;
+    opacity: 1;
+}
+.form-div{
+   width: 60%;
+    display: inline-block;
+}
+
+
+.datepicker{
+    margin-left: 53px;
+    text-align: left;
+    font: Regular 16px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #111111;
+    opacity: 1;
+    display: inline-block;
+    width: 19%;
+}
+
+.data{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: none;
+    border-radius: none;
+    opacity: 1;
+    border: none!important;
+    padding-right: 0!important;
+}
+
+.drop_down{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 4px;
+    opacity: 1; 
+}
+
+
+.icon{
+    width: 100%;
+}
+
+.specializ-div{
+    width: 19%;
+    display: inline-block;
+    margin-left: 27px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 4px;
+    opacity: 1;
+    padding-right: 11px;
+}
+
+.selectpicker{
+    height: 36px;
+    border: none;
+    outline: none;
+}
+select.selectpicker{
+    background-image:url('../images/down.svg');
+    background-repeat: no-repeat;
+    background-position:
+        calc(100% - 0px) calc(1em + -3px),
+        calc(100% - 15px) calc(1em + 2px),
+        100% 0;
+
+}
+
+select.selectpicker::-ms-expand {	display: none; }
+select.selectpicker{
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.form-control:focus{
+    border: none;
+    box-shadow: none;
+}
+
+.sett-log-div{
+    margin-top: 0!important;
+}
+
+.search-div{
+    width:30%;
+    float:right;
+    padding-top: 46px;
+}
+
+.search{
+    border: 0.5px solid #2384E5;
+    border-radius: 4px;
+    opacity: 1;
+    width:235px;
+    height: 38px;
+    padding-left: 10px;
+
+}
+
+.search:focus{
+    border: 0.5px solid #2384E5;
+    border-radius: 4px;
+    opacity: 1;
+    outline: none;
+}
+
+.search-btn{
+    padding: 7px 65px;
+    background: #2384E5 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 4px;
+    opacity: 1;
+    margin-bottom: 5px;
+margin-left: 18px;
+    margin-right: 53px;
+}
+
+.table-div{
+    padding: 55px 10px;   
+}
+
+.table-div .table-head {
+    border-collapse: separate;
+    border-spacing: 10px;  
+    width: 95.2%;
+    margin-left: 33px;
+}
+
+
+
+.table-div .table-head thead th{
+    text-align: center!important;
+    width: 164px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: left;
+    font: Regular 16px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-weight: 600;
+    vertical-align: top;
+    padding: 20px 5px;
+
+}
+
+.table-head td{
+    border: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.table-div .table thead th span{
+    text-align: left;
+    font: Regular 16px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #2384E5;
+    opacity: 1;
+}
+
+.profile{
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+    width: 58px;
+    height:58px;
+    border-radius: 58px;
+    display: inline-block;
+   float: right;
+    margin-right: 15px;
+
+}
+.profile img{
+    margin: 12px 16px 16px 18px;
+}
+
+.name_user{
+    text-align: left;
+    font: Regular 16px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #2384E5;
+    opacity: 1;
+}
+
+.info{
+    width: 250px;
+    float: right;
+    height: 63px;
+    margin-top: 10px;
+}
+
+.name_user{
+    text-align: left;
+    font: Regular 16px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #2384E5;
+    opacity: 1;
+    float: right;
+    margin-right: 55px;
+    margin-top: 17px;
+}
+
+
+.table-div .table thead th span{
+    text-align: left;
+    font: Regular 16px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #2384E5;
+    opacity: 1;
+}
+
+.value{
+    width: 158px;
+    height: 32px;
+    padding: 5px 0;
+    opacity: 1;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.table-div .table-value {
+    border-collapse: separate;
+    border-spacing: 0 10px; 
+    width:94%;
+    margin-left: 42px;
+    margin-right: 42px;
+}
+
+.table-div .table-value tr {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 4px;
+    opacity: 1;  
+}
+
+.table-div-admin{
+    padding: 55px 10px;
+}
+
+.table{
+   margin-bottom: -11px; 
+}
+
+.datepicker-doctor{
+    margin-top: 46px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 292px;
+  min-height: 50px;
+  z-index: 1;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 6px #00000029;
+border-radius: 4px;
+opacity: 1;
+}
+
+.dropdown-content.no-one{
+    padding-top: 10px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.no-active-org{
+        filter: grayscale(1);
+    pointer-events: none;
+}
+
+.ui.calendar .ui.table tr td, .ui.calendar .ui.table tr th,.ui.calendar .ui.table tr td, .ui.calendar .ui.table tr td{
+    padding: 0;
+    margin: 0;
+}
+
+.organiz_link,.admin_link,.doctor_link{
+	text-decoration:none;
+	color:inherit;
+}
+
+.organiz_link:hover,.admin_link:hover,.doctor_link:hover{
+	color: #F2B407;
+}
+
+.active_menu{
+   color: #F2B407; 
+}
+
+body > div.container_div > div.table-div > table.table.table-value.table1.doctor_stat > tbody > tr > td.statistic_doc > div{
+        width: 100px;
+    height: 32px;
+    padding: 5px 0;
+    opacity: 1;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body > div.container_div > div.table-div > table.table.table-value.table1.doctor_stat > tbody > tr > td.statistic_doc > div>input{
+        width: 100%;
+        text-align: center;
+    
+}
+
+
+table {
+    table-layout: fixed;
+}
+
+.table td, .table th{
+        padding: 10px;
+}
+body > div.container_div > div.table-div > table.table.table-value.table1.doctor_stat > tbody > tr > td:last-child{
+        padding: 10px 0 10px 20px;
+}
+
+body > div.container_div > div.table-div > table.table.table-value.table1.doctor_indicator > tbody > tr > td:nth-child(8){
+           padding: 10px 0 10px 20px; 
+}
+
+
+body > div.container_div > div.table-div.table-div-doctor.reference_doctor > table.table.table-value.table1.reference_doctor > tbody > tr > td.reference > div > input{
+    width: 70%;
+    text-align: center;
+}
+
+body > div.container_div > div.table-div.table-div-doctor.reference_doctor > table.table.table-value.table1.reference_doctor > tbody > tr > td.reference > div {
+    width: 150px;
+}
+
+body > div.container_div > div.table-div.table-div-doctor.reference_doctor > table.table.table-value.table1.reference_doctor > tbody > tr > td.reference > div>span {
+    margin-left: 5px;
+}
+
+
+body > div.container_div > div.table-div.table-div-doctor.reference_admin > table.table.table-value.table1.reference_admin > tbody > tr > td.conversion > div > input{
+    text-align: center;
+}
+
+body > div.container_div > div.table-div.table-div-doctor.reference_admin > table.table.table-value.table1.reference_admin > tbody > tr > td.conversion > div > input{
+    text-align: center;
+    width: 70%;
+}
+
+body > div.container_div > div.table-div.table-div-doctor.reference_admin > table.table.table-value.table1.reference_admin > tbody > tr > td.conversion > div > span{
+     margin-left: 5px;
+}
+
+#myform6 > div > table > tbody > tr > td > form{
+    display: inline-block;
+}
+
+.no-personal{
+    width: 80%;
+    margin: 0 auto;
+    padding: 41px;
+}
+
+.no-personal h3{
+text-align: center;
+margin: 0 auto;
+}
+
